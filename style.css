@@ -45,7 +45,9 @@ body {
 .name-button:hover {
   background-color: whitesmoke;
 }
-
+.name-button:disabled {
+  background-color: white;
+}
 #reset-button {
   padding: 0.5rem 1rem;
   font-size: 1.5rem;
